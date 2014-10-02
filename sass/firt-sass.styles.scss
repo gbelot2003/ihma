@@ -1,0 +1,107 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+@import "_style";
+
+
+a{
+	@include linkColor($darkGreen, $gyellowSoft);
+}
+
+.site-logo, .site-name, .site-slogan {
+	display: none;
+}
+
+.l-header-warp {
+	background: $verde2;
+}
+
+.l-page {
+	width: 90%;
+	max-width: $desktop;
+	margin: 0 auto;
+}
+
+.l-content {
+	text-align: justify;
+}
+
+.node-title {
+		color:$rojo1;
+}
+
+.node__title a {
+	padding-left: 0.5rem;
+}
+
+.l-branding {
+	@include clearfix;
+	margin-bottom: 0.5rem;
+}
+
+article header {
+	background: $verdeS2;
+	padding: 0.2rem 0 0.2rem 0.1rem;
+}
+
+article .links--inline {
+	margin-bottom: 1rem;
+}
+
+.content_down_pre {
+	@include clearfix;
+	color:$rojo2;
+	text-align: center;
+	@include breakpoint($tablet, true){
+		.padding-top: 2rem;
+		.first {@include grid-span(4, 1);}
+		.secund{@include grid-span(4, 5);}
+		.thrir {@include grid-span(4, 9);}
+		.ficon {font-size: 10rem;}	
+	}	
+	@include breakpoint($desktop, true){
+		.ficon {font-size: 15rem;}	
+	}
+
+}
+
+.l-down-warp {
+	background: $verde1;
+	color: white;
+	text-align: justify;
+	padding: 2rem 0 2rem 0;
+}
+.l-down-warp h2{
+	text-align: right;
+}
+
+.ficon {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.ficon:hover {
+	color:$verde1;
+}
+
+
+

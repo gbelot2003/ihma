@@ -1,0 +1,15 @@
+@mixin linkColor($color, $color2) {
+    color:$color;
+    &:hover,&:active,&:focus {
+        color:lighten($color2, 50%);
+     }
+}
+
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+// @include alpha-attribute('background-color', rgba(black, 0.5), white);
+}

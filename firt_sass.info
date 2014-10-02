@@ -1,0 +1,34 @@
+name = First Sass
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/firt-sass.normalize.css
+stylesheets[all][] = css/firt-sass.hacks.css
+stylesheets[all][] = css/firt-sass.styles.css
+stylesheets[all][] = css/firt-sass.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/firt-sass.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[slider] = Slider Area
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[content_down]  = Content Down
+regions[footer] = Footer

@@ -1,0 +1,269 @@
+/* line 28, ../../../sass/layouts/home/home.layout.scss */
+.l-slider-warp {
+  position: relative; }
+  /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  .l-slider-warp:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 37, ../../../sass/layouts/home/home.layout.scss */
+.l-navigation {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  z-index: 999;
+  position: inherit; }
+  @media (min-width: 70em) {
+    /* line 37, ../../../sass/layouts/home/home.layout.scss */
+    .l-navigation {
+      position: absolute;
+      top: 2%; } }
+  @media (min-width: tablet) {
+    /* line 37, ../../../sass/layouts/home/home.layout.scss */
+    .l-navigation {
+      position: absolute;
+      top: 5%; } }
+
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.l-main:after, .l-down-warp:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 40em) {
+  /* line 58, ../../../sass/layouts/home/home.layout.scss */
+  .l-content {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+/* line 3, ../../../sass/layouts/home/home.layout.styles.scss */
+.block--logo-block {
+  width: 100%;
+  text-align: center; }
+  /* line 6, ../../../sass/layouts/home/home.layout.styles.scss */
+  .block--logo-block img {
+    margin: 0 auto; }
+
+/* line 16, ../../../sass/layouts/home/home.layout.styles.scss */
+#views_slideshow_cycle_main_main_slider-block .views-field-title {
+  bottom: 96%;
+  display: none; }
+
+/* line 22, ../../../sass/layouts/home/home.layout.styles.scss */
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left; }
+
+/* line 26, ../../../sass/layouts/home/home.layout.styles.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto; }
+
+/* line 30, ../../../sass/layouts/home/home.layout.styles.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto; }
+
+/* line 34, ../../../sass/layouts/home/home.layout.styles.scss */
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%; }
+
+/* line 38, ../../../sass/layouts/home/home.layout.styles.scss */
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+
+/* line 50, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu {
+  /*float:      left;*/
+  /* commented this out to make the menu center */
+  margin-bottom: 1em;
+  margin: 0 auto; }
+
+/* line 55, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu a {
+  font-size: 10px;
+  border-left: 1px solid #fff;
+  padding: .75em 1em;
+  text-decoration: none; }
+  @media (min-width: 70em) {
+    /* line 55, ../../../sass/layouts/home/home.layout.styles.scss */
+    .sf-menu a {
+      font-size: inherit; } }
+
+/* line 67, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu a, .sf-menu a:visited {
+  /* visited pseudo selector so IE6 applies text colour*/
+  color: white; }
+
+/* line 75, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu li {
+  background-color: #7f7f7f;
+  background-color: rgba(0, 0, 0, 0.5); }
+  @media (min-width: 70em) {
+    /* line 75, ../../../sass/layouts/home/home.layout.styles.scss */
+    .sf-menu li {
+      position: relative;
+      left: 5%; } }
+  @media (min-width: tablet) {
+    /* line 75, ../../../sass/layouts/home/home.layout.styles.scss */
+    .sf-menu li {
+      position: relative;
+      left: 6%; } }
+
+/* line 88, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu li li {
+  background-color: #7f7f7f;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* line 91, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu li li li {
+  background-color: #7f7f7f;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* line 94, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+  background: #f46d43;
+  outline: 0; }
+
+/*** arrows **/
+/* line 99, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu a.sf-with-ul {
+  padding-right: 2.25em;
+  min-width: 1px;
+  /* trigger IE7 hasLayout so spans position accurately */ }
+
+/* line 103, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-sub-indicator {
+  position: absolute;
+  display: block;
+  right: .75em;
+  top: 1.05em;
+  /* IE6 only */
+  width: 10px;
+  height: 10px;
+  text-indent: -999em;
+  overflow: hidden;
+  background: url("../../../images/arrows-ffffff.png") no-repeat -10px -100px;
+  /* 8-bit indexed alpha png. IE6 gets solid image only */ }
+
+/* line 116, ../../../sass/layouts/home/home.layout.styles.scss */
+a > .sf-sub-indicator {
+  /* give all except IE6 the correct values */
+  top: .8em;
+  background-position: 0 -100px;
+  /* use translucent arrow for modern browsers*/ }
+
+/* apply hovers to modern browsers */
+/* line 121, ../../../sass/layouts/home/home.layout.styles.scss */
+a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px -100px;
+  /* arrow hovers for modern browsers*/ }
+
+/* point right for anchors in subs */
+/* line 125, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu ul .sf-sub-indicator {
+  background-position: -10px 0; }
+
+/* line 128, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu ul a > .sf-sub-indicator {
+  background-position: 0 0; }
+
+/* apply hovers to modern browsers */
+/* line 132, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-menu ul a:focus > .sf-sub-indicator, .sf-menu ul a:hover > .sf-sub-indicator, .sf-menu ul a:active > .sf-sub-indicator, .sf-menu ul li:hover > a > .sf-sub-indicator, .sf-menu ul li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px 0;
+  /* arrow hovers for modern browsers*/ }
+
+/*** shadows for all but IE6 ***/
+/* line 136, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-shadow ul {
+  background: url("../../../images/shadow.png") no-repeat bottom right;
+  padding: 0 8px 9px 0;
+  -moz-border-radius-bottomleft: 17px;
+  -moz-border-radius-topright: 17px;
+  -webkit-border-top-right-radius: 17px;
+  -webkit-border-bottom-left-radius: 17px; }
+
+/* line 144, ../../../sass/layouts/home/home.layout.styles.scss */
+.sf-shadow ul.sf-shadow-off {
+  background: transparent; }
+
+/* line 149, ../../../sass/layouts/home/home.layout.styles.scss */
+sf-menu {
+  display: table;
+  margin: 0 auto;
+  color: naranja1; }
+
+/* line 159, ../../../sass/layouts/home/home.layout.styles.scss */
+.content_down_pre {
+  color: #d73027;
+  text-align: center; }
+  /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  .content_down_pre:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 40em) {
+    /* line 159, ../../../sass/layouts/home/home.layout.styles.scss */
+    .content_down_pre {
+      .padding-top: 2rem; }
+      /* line 165, ../../../sass/layouts/home/home.layout.styles.scss */
+      .content_down_pre .first {
+        width: 32.20339%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 0;
+        clear: none; }
+      /* line 166, ../../../sass/layouts/home/home.layout.styles.scss */
+      .content_down_pre .secund {
+        width: 32.20339%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 33.89831%;
+        clear: none; }
+      /* line 167, ../../../sass/layouts/home/home.layout.styles.scss */
+      .content_down_pre .thrir {
+        width: 32.20339%;
+        float: right;
+        margin-left: 0;
+        margin-right: 0;
+        clear: none; }
+      /* line 168, ../../../sass/layouts/home/home.layout.styles.scss */
+      .content_down_pre .ficon {
+        font-size: 10rem; } }
+  @media (min-width: 70em) {
+    /* line 171, ../../../sass/layouts/home/home.layout.styles.scss */
+    .content_down_pre .ficon {
+      font-size: 15rem; } }
+
+/* line 176, ../../../sass/layouts/home/home.layout.styles.scss */
+.l-down-warp {
+  background: #1a9850;
+  color: white;
+  text-align: justify;
+  padding: 2rem 0 2rem 0; }
+
+/* line 182, ../../../sass/layouts/home/home.layout.styles.scss */
+.l-down-warp h2 {
+  text-align: right; }
+
+/* line 186, ../../../sass/layouts/home/home.layout.styles.scss */
+.ficon {
+  font-size: 8rem;
+  text-align: center; }
+
+/* line 191, ../../../sass/layouts/home/home.layout.styles.scss */
+.ficon:hover {
+  color: #1a9850; }
+
+/*# sourceMappingURL=home.layout.styles.css.map */

@@ -1,0 +1,45 @@
+/* line 27, ../../../sass/layouts/twosides/home.layout.scss */
+.l-slider-warp {
+  position: relative; }
+  /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  .l-slider-warp:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 36, ../../../sass/layouts/twosides/home.layout.scss */
+.l-navigation {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  z-index: 999;
+  position: inherit; }
+  @media (min-width: 70em) {
+    /* line 36, ../../../sass/layouts/twosides/home.layout.scss */
+    .l-navigation {
+      position: absolute;
+      top: 2%; } }
+  @media (min-width: 100em) {
+    /* line 36, ../../../sass/layouts/twosides/home.layout.scss */
+    .l-navigation {
+      position: absolute;
+      top: 5%; } }
+
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.l-main:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 128em) {
+  /* line 57, ../../../sass/layouts/twosides/home.layout.scss */
+  .l-content {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+
+/*# sourceMappingURL=home.layout.css.map */

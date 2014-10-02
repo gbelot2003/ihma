@@ -1,0 +1,46 @@
+/* line 24, ../../../sass/layouts/twosides/twosides.layout.scss */
+.l-region--navigation {
+  background: #f46d43; }
+
+/* line 29, ../../../sass/layouts/twosides/twosides.layout.scss */
+.l-slider-warp {
+  position: relative; }
+  /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  .l-slider-warp:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 35, ../../../sass/layouts/twosides/twosides.layout.scss */
+.l-navigation {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  z-index: 111;
+  position: inherit; }
+
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.l-main:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 46, ../../../sass/layouts/twosides/twosides.layout.scss */
+.l-content {
+  width: 74.57627%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* line 50, ../../../sass/layouts/twosides/twosides.layout.scss */
+.l-region--sidebar-first {
+  width: 23.72881%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/*# sourceMappingURL=twosides.layout.no-query.css.map */
