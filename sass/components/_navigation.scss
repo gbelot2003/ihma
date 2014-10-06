@@ -3,7 +3,7 @@
 .block--superfish {
 	@include breakpoint($tablet, true){
 	@include grid-span(12,1);
-	background:rgba(255,255,255,0.5);
+
 	margin-bottom: 0.5rem;
 	z-index: 999;
 	}

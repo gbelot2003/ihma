@@ -1,4 +1,5 @@
 // Import external libraries.
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,200italic,600italic);
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
@@ -27,6 +28,14 @@ a{
 	@include linkColor($darkGreen, $gyellowSoft);
 }
 
+#block-logo-block-logo {
+	a {
+		img {
+
+		}
+	}
+}
+
 .site-logo, .site-name, .site-slogan {
 	display: none;
 }
@@ -39,6 +48,7 @@ a{
 	width: 90%;
 	max-width: $desktop;
 	margin: 0 auto;
+	font-family: 'Exo 2', sans-serif;
 }
 
 .l-content {
@@ -67,41 +77,6 @@ article .links--inline {
 	margin-bottom: 1rem;
 }
 
-.content_down_pre {
-	@include clearfix;
-	color:$rojo2;
-	text-align: center;
-	@include breakpoint($tablet, true){
-		.padding-top: 2rem;
-		.first {@include grid-span(4, 1);}
-		.secund{@include grid-span(4, 5);}
-		.thrir {@include grid-span(4, 9);}
-		.ficon {font-size: 10rem;}	
-	}	
-	@include breakpoint($desktop, true){
-		.ficon {font-size: 15rem;}	
-	}
-
-}
-
-.l-down-warp {
-	background: $verde1;
-	color: white;
-	text-align: justify;
-	padding: 2rem 0 2rem 0;
-}
-.l-down-warp h2{
-	text-align: right;
-}
-
-.ficon {
-  font-size: 8rem;
-  text-align: center;
-}
-
-.ficon:hover {
-	color:$verde1;
-}
 
 
 

@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,200italic,600italic);
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
@@ -10,7 +11,6 @@ img, media {
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    background: rgba(255, 255, 255, 0.5);
     margin-bottom: 0.5rem;
     z-index: 999; } }
 
@@ -150,40 +150,41 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .icon-settings:before {
   content: "\e604"; }
 
-/* line 26, ../sass/firt-sass.styles.scss */
+/* line 27, ../sass/firt-sass.styles.scss */
 a {
   color: #555533; }
   /* line 3, ../sass/abstractions/_mixins.scss */
   a:hover, a:active, a:focus {
     color: #ffffdd; }
 
-/* line 30, ../sass/firt-sass.styles.scss */
+/* line 39, ../sass/firt-sass.styles.scss */
 .site-logo, .site-name, .site-slogan {
   display: none; }
 
-/* line 34, ../sass/firt-sass.styles.scss */
+/* line 43, ../sass/firt-sass.styles.scss */
 .l-header-warp {
   background: #006837; }
 
-/* line 38, ../sass/firt-sass.styles.scss */
+/* line 47, ../sass/firt-sass.styles.scss */
 .l-page {
   width: 90%;
   max-width: 70em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Exo 2', sans-serif; }
 
-/* line 44, ../sass/firt-sass.styles.scss */
+/* line 54, ../sass/firt-sass.styles.scss */
 .l-content {
   text-align: justify; }
 
-/* line 48, ../sass/firt-sass.styles.scss */
+/* line 58, ../sass/firt-sass.styles.scss */
 .node-title {
   color: #a50026; }
 
-/* line 52, ../sass/firt-sass.styles.scss */
+/* line 62, ../sass/firt-sass.styles.scss */
 .node__title a {
   padding-left: 0.5rem; }
 
-/* line 56, ../sass/firt-sass.styles.scss */
+/* line 66, ../sass/firt-sass.styles.scss */
 .l-branding {
   margin-bottom: 0.5rem; }
   /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
@@ -192,75 +193,13 @@ a {
     display: table;
     clear: both; }
 
-/* line 61, ../sass/firt-sass.styles.scss */
+/* line 71, ../sass/firt-sass.styles.scss */
 article header {
   background: #a6d96a;
   padding: 0.2rem 0 0.2rem 0.1rem; }
 
-/* line 66, ../sass/firt-sass.styles.scss */
+/* line 76, ../sass/firt-sass.styles.scss */
 article .links--inline {
   margin-bottom: 1rem; }
-
-/* line 70, ../sass/firt-sass.styles.scss */
-.content_down_pre {
-  color: #d73027;
-  text-align: center; }
-  /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.firt_sass/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
-  .content_down_pre:after {
-    content: "";
-    display: table;
-    clear: both; }
-  @media (min-width: 40em) {
-    /* line 70, ../sass/firt-sass.styles.scss */
-    .content_down_pre {
-      .padding-top: 2rem; }
-      /* line 76, ../sass/firt-sass.styles.scss */
-      .content_down_pre .first {
-        width: 32.20339%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none; }
-      /* line 77, ../sass/firt-sass.styles.scss */
-      .content_down_pre .secund {
-        width: 32.20339%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 33.89831%;
-        clear: none; }
-      /* line 78, ../sass/firt-sass.styles.scss */
-      .content_down_pre .thrir {
-        width: 32.20339%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 79, ../sass/firt-sass.styles.scss */
-      .content_down_pre .ficon {
-        font-size: 10rem; } }
-  @media (min-width: 70em) {
-    /* line 82, ../sass/firt-sass.styles.scss */
-    .content_down_pre .ficon {
-      font-size: 15rem; } }
-
-/* line 87, ../sass/firt-sass.styles.scss */
-.l-down-warp {
-  background: #1a9850;
-  color: white;
-  text-align: justify;
-  padding: 2rem 0 2rem 0; }
-
-/* line 93, ../sass/firt-sass.styles.scss */
-.l-down-warp h2 {
-  text-align: right; }
-
-/* line 97, ../sass/firt-sass.styles.scss */
-.ficon {
-  font-size: 8rem;
-  text-align: center; }
-
-/* line 102, ../sass/firt-sass.styles.scss */
-.ficon:hover {
-  color: #1a9850; }
 
 /*# sourceMappingURL=firt-sass.styles.css.map */
